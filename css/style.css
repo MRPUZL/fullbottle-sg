@@ -1,0 +1,43 @@
+.wrap {
+    width: 910px;
+    margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.swatch {
+    width: 150px;
+    height: 110px;
+    margin: 1em;
+    float: left;
+    background: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.swatch--color {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px 5px 0 0;
+}
+.swatch--color:before, .swatch--color:after {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgba(0, 0, 0, 0.82);
+    position: relative;
+    top: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+div#content-formatting,
+div#headings,
+div#tables {
+    background-color: rgb(232, 232, 232);
+}
+
+video#heroPhoneVideo12 {
+    max-width: 100%;
+}

@@ -1,0 +1,287 @@
+
+/*Font Styles*/
+.sg-font-primary {
+    font-family: 'Titillium Web', sans-serif;
+}
+.sg-font-secondary {
+    font-family: "Proxima Nova", sans-serif;
+}
+.primary-heading {
+    letter-spacing: 1px;
+    word-spacing: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 46px;
+    color: #444444;
+}
+.secondary-heading {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.alternate-heading {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+}
+.body-copy {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.sg-brand-primary {
+    background: #3BBCD2;
+}
+.sg-brand-primary:after {
+    content: "#3BBCD2";
+    text-transform: uppercase;
+}
+.sg-brand-secondary {
+    background: #455A64;
+}
+.sg-brand-secondary:after {
+    content: "#455A64";
+    text-transform: uppercase;
+}
+.sg-white {
+    background: #f1f1f1;
+}
+.sg-white:after {
+    content: "#f1f1f1";
+    text-transform: uppercase;
+}
+.sg-gray {
+    background: #A8A5A5;
+}
+.sg-gray:after {
+    content: "#A8A5A5";
+    text-transform: uppercase;
+}
+.sg-gray-dark {
+    background: #444444;
+}
+.sg-gray-dark:after {
+    content: "#444444";
+    text-transform: uppercase;
+}
+
+/*Button Styles*/
+.btn {
+    font-family: 'Titillium Web', sans-serif;
+    width: 225px;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 14px 11px;
+}
+.btn-primary {
+    border-color: rgb(59, 188, 210);
+    background: rgb(59, 188, 210);
+    color: #FFFFFF;
+}
+.btn-lg {
+    min-width: 300px;
+    padding: 25px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    max-width: 410px;
+}
+.btn-sm {
+    height: 52px;
+    width: 200px;
+    font-size: 15px;
+    padding: 0;
+}
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.btn-outline-dark {
+    background-color: transparent;
+    color: #808080;
+    border: 2px solid #808080;
+}
+
+/*ios device*/
+.ios-device {
+    max-width: 320px;
+    height: 650.66667px;
+    border: 2px solid #06bcd4;
+    border-radius: 42.66666px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+.ios-device:before {
+    content: " ";
+    display: inline-block;
+    height: 1.2%;
+    width: 17%;
+    margin-left: -8.5%;
+    border-radius: 7.46667px;
+    border: 1px solid #06bcd4;
+    position: absolute;
+    left: 50%;
+    top: 5.3%;
+}
+.ios-device:after {
+    content: " ";
+    border-radius: 100%;
+    border: 1px solid #06bcd4;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    height: 7.5%;
+    width: 15.3%;
+    margin-left: -7.515%;
+    top: 90.1%;
+}
+.ios-device-screen {
+    width: 90%;
+    height: 76%;
+    border: 1px solid #06bcd4;
+    margin: 0 auto;
+    margin-top: 25%;
+    overflow: hidden;
+}
+.ios-device-volumes:before, .ios-device-volumes:after {
+    content: " ";
+    display: inline-block;
+    border-radius: 4.8px 0 0 4.8px;
+    background: #06bcd4;
+    position: absolute;
+    right: 100%;
+    width: 1.6%;
+    height: 7.6%;
+    top: 21%;
+}
+.ios-device-button:before {
+    content: " ";
+    display: inline-block;
+    width: 4.8px;
+    height: 26.66667px;
+    border-radius: 4.8px 0 0 4.8px;
+    background: #06bcd4;
+    position: absolute;
+    top: 83.2px;
+    right: 100%;
+}
+.ios-device-button:after {
+    content: " ";
+    display: inline-block;
+    width: 4.8px;
+    height: 49.06667px;
+    border-radius: 0 4.8px 4.8px 0;
+    background: #06bcd4;
+    position: absolute;
+    top: 137.6px;
+    left: 100%;
+}
+.ios-device-camera:before {
+    content: " ";
+    display: inline-block;
+    width: 11.73333px;
+    height: 11.73333px;
+    border-radius: 100%;
+    border: 1px solid #06bcd4;
+    position: absolute;
+    top: 30.93333px;
+    left: 103.46667px;
+}
+
+.white.ios-device {
+    border: 2px solid rgba(255, 255, 255, 0.85);
+}
+.white.ios-device:before {
+    border: 1px solid #ffffff;
+}
+.white.ios-device:after {
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+.white .ios-device:before {
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+.white .ios-device:after {
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+.white .ios-device-screen {
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+.white .ios-device-volumes:before,
+.white .ios-device-volumes:after {
+    background: rgba(255, 255, 255, 0.85);
+}
+.white .ios-device-button:before {
+    background: rgba(255, 255, 255, 0.85);
+}
+.white .ios-device-button:after {
+    background: rgba(255, 255, 255, 0.85);
+}
+.white .ios-device-camera:before {
+    border: 1px solid #ffffff;
+}
+
+/*carousel*/
+/*homepage carousel*/
+
+.carousel-fade .carousel-inner .item {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+.item {
+    background: white;
+}
+
+#home .carousel-indicators .active {
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    height: 90px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 175px;
+    border: none;
+    margin: 0 20px;
+    background-position: center;
+}
+
+.carousel-indicators .active {
+    background-color: rgba(0,0,0,0);
+}
+
+.panel {
+    background-color: rgb(232, 232, 232);
+}
